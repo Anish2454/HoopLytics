@@ -266,10 +266,10 @@ h6 {
   top: 8%;
   max-width: 200px;
   max-height: 200px;
-  left: 20%; }
+  left: calc(50% - 100px);}
 
 #homeCenter .main-logo {
-  left: calc(50% - 100px); }
+  left: calc(50%-100px); }
 
 .social_icons, #homeCenter .social_icons {
   position: absolute;
