@@ -91,11 +91,6 @@ table {
 .js-sticky {
   display: block;
 }
-@media screen and (max-width: 768px) {
-  .js-sticky {
-    display: none;
-  }
-}
 
 .fh5co-main-nav {
   position: relative;
