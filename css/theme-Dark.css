@@ -149,15 +149,15 @@ table {
   color: #fb6e14;
 }
 .fh5co-main-nav .fh5co-menu-1 {
-  text-align: right;
-  width: 40.33%;
+  text-align: left;
+  width:0%;
 }
 .fh5co-main-nav .fh5co-menu-1 a {
   vertical-align: middle;
 }
 .fh5co-main-nav .fh5co-logo {
   text-align: center;
-  width: 19.33%;
+  width:100%;
   font-size: 40px;
   font-family: "Raleway"
   font-weight: 700;
@@ -166,10 +166,6 @@ table {
   position: relative;
   top: -5px;
   display: inline-block;
-}
-.fh5co-main-nav .fh5co-menu-2 {
-  text-align: left;
-  width: 40.33%;
 }
 
 /* ------------------------------------- */
