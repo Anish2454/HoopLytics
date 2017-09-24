@@ -91,6 +91,11 @@ table {
 .js-sticky {
   display: block;
 }
+@media screen and (max-width: 768px) {
+  .js-sticky {
+    display: none;
+  }
+}
 
 .fh5co-main-nav {
   position: relative;
@@ -149,16 +154,15 @@ table {
   color: #fb6e14;
 }
 .fh5co-main-nav .fh5co-menu-1 {
-  text-align: left;
-  width: 25%;
+  text-align: right;
+  width: 40.33%;
 }
 .fh5co-main-nav .fh5co-menu-1 a {
   vertical-align: middle;
 }
 .fh5co-main-nav .fh5co-logo {
   text-align: center;
-  padding-right: 25%;
-  width:75%;
+  width: 19.33%;
   font-size: 40px;
   font-family: "Raleway"
   font-weight: 700;
@@ -167,6 +171,10 @@ table {
   position: relative;
   top: -5px;
   display: inline-block;
+}
+.fh5co-main-nav .fh5co-menu-2 {
+  text-align: left;
+  width: 40.33%;
 }
 
 /* ------------------------------------- */
@@ -266,10 +274,10 @@ h6 {
   top: 8%;
   max-width: 200px;
   max-height: 200px;
-  left: calc(50% - 100px);}
+  left: 20%; }
 
 #homeCenter .main-logo {
-  left: calc(50%-100px); }
+  left: calc(50% - 100px); }
 
 .social_icons, #homeCenter .social_icons {
   position: absolute;
